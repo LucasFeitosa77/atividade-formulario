@@ -77,5 +77,3 @@ src/
 ├── main.jsx
 └── index.css
 ```
-
-# atividade-formulario
