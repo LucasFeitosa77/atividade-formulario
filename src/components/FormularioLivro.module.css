@@ -1,0 +1,71 @@
+.formulario {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: #1e293b;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.formulario button {
+    width: 100%;
+    padding: 0.85rem;
+    background-color: #6366f1;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.formulario button:hover {
+    background-color: #4f46e5;
+}
+
+.lista_livros {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e2e8f0;
+}
+
+.lista_livros h2 {
+    font-size: 1.25rem;
+    color: #1e293b;
+    margin-bottom: 1rem;
+}
+
+.lista_livros p {
+    color: #64748b;
+    font-style: italic;
+    font-size: 0.95rem;
+}
+
+.lista_livros ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.lista_livros li {
+    padding: 0.85rem 1rem;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    color: #334155;
+    text-align: left;
+}
